@@ -1,0 +1,64 @@
+/* Styling for the entire body */
+body {
+	font-family: calibri;
+	font-weight: 500;
+	font-size: large;
+	margin: 0;
+	padding: 0;
+	background: #86e4d7;
+}
+
+/* Styling for the div elements */
+div {
+	text-align: center;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 10);
+	margin: 50px auto;
+	width: 80%;
+	max-width: 500px;
+}
+
+/* Styling for heading(h1) elements */
+h1 {
+	color: #3aaf9f;
+}
+
+/* Styling for heading(h2) elements */
+h2 {
+	color: #000000ab;
+	text-align: center;
+}
+
+/* Styling for form */
+form {
+	text-align: left;
+}
+
+/* Styling for various input types */
+input[type="text"], input[type="password"], input[type="number"], input[type="email"]
+	{
+	width: 100%;
+	padding: 8px;
+	border: 1px solid activeborder;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+
+/* Styling for submit and reset button */
+input[type="submit"], input[type="reset"] {
+	font-weight: bold;
+	background-color: orange;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+/* Styling for submit and reset button on hover */
+input[type="submit"]:hover, input[type="reset"]:hover {
+	background: #3aaf9f
+}
